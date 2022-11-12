@@ -13,3 +13,4 @@ SELECT name
   FROM sqlite_master
  where type = 'table'
 ```
+![fork repository](https://github.com/msantillana21/sql-mysteries/blob/master/My%20Solution/Images/1.jpg)
