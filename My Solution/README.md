@@ -27,7 +27,15 @@ WHERE type = 'table'
 
 ### 1. Gathering the information they tell you about the case:
 * By reading the introduction you know that the murder took place in SQL City on Jan.15, 2018 
-* The table that has a City column is the *Crime Scene Report* so you run a query to see the table's data and filter it by City
+* The table that has a City column is the *Crime Scene Report*
+* There are 1228 entries in this table, so you run a query to see the table's data filtered by City
+
+```
+SELECT COUNT(*)
+FROM crime_scene_report
+```
+![fork repository](https://github.com/msantillana21/sql-mysteries/blob/master/My%20Solution/Images/3c.jpg)
+
 
 ```
 SELECT * 
