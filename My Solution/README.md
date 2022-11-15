@@ -23,7 +23,7 @@ WHERE type = 'table'
 
 
 
-## Using your knowledge of the database schema and SQL you can find out who committed the murder
+## Using your knowledge of the database schema and SQL to find out who committed the murder
 
 ### 1. Gathering the information they tell you about the case:
 * By reading the introduction you know that the murder took place in SQL City on Jan.15, 2018 
