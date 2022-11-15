@@ -103,6 +103,14 @@ The query finds 3 results, but the first witness said that he saw a **man**, so 
 * Joining *get fit now member* and *get fit now check in* tables
 * Filtering by membership id containing **48Z**
 
+ ```
+SELECT name, membership_status, membership_id, check_in_date
+FROM get_fit_now_member gym
+JOIN get_fit_now_check_in checkin
+	ON gym.id = checkin.membership_id
+WHERE membership_id LIKE '%48z%
+```
+
 ![fork repository](https://github.com/msantillana21/sql-mysteries/blob/master/My%20Solution/Images/8.jpg)
 
 The person that has a gold membership, checked in on January the 9th as the witnesses said and appeared on the previous license query is **Jeremy Bowers**
