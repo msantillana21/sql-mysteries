@@ -7,7 +7,7 @@ There's been a Murder in SQL City! The SQL Murder Mystery is designed to be both
 If you just want to solve the mystery, go to [mystery.knightlab.com](https://mystery.knightlab.com). If you're new to SQL, you may want to start at [our walkthrough](https://mystery.knightlab.com/walkthrough.html). It won't teach you everything about SQL, but it should teach you all that you need to solve the mystery.  
 
 ## My Solution
-Check here for my solution
+[Check here for my solution](https://github.com/msantillana21/sql-mysteries/blob/master/My%20Solution/README.md)
 
 ## What Else is Here?
 
