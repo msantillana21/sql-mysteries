@@ -66,7 +66,7 @@ ORDER BY address_number DESC
 
 You get the first name: *Morty Schapiro*
 
-* Then you search for the other witness filtering by street name and name:
+* Then you search for the other witness filtering by name and street name:
 
  ```
 SELECT *
