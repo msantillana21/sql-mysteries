@@ -15,7 +15,7 @@ WHERE type = 'table'
 ```
 ![fork repository](https://github.com/msantillana21/sql-mysteries/blob/master/My%20Solution/Images/1B.jpg)
 
-## You can also check the schema diagram
+## Checking the schema diagram
 
 
 
@@ -51,7 +51,7 @@ Looking only at the 'murder' reports and the date (20180115) you can see that th
   
   *The second witness, named Annabel, lives somewhere on "Franklin Ave".*
   
- ### 2. Make a query to search the names of the witnesses
+ ### 2. Creating a query to search the names of the witnesses
  * The table that has names and addresses is the *person* table
  * Since the first witness lives on the last house, you order by descending number to show the last house of that street on the first row
  
@@ -78,7 +78,7 @@ WHERE address_street_name = 'Franklin Ave' AND name LIKE 'Annabel%'
 
 You get the second name: *Annabel Miller*
 
-### 3. You need to know what the witnesses saw or heard so you make a query to see the interview table
+### 3. Querying what the witnesses saw or heard 
  
 * Since the interview table only has 2 columns: *person_id* and *transcript*, you filter your witnesses by person_id which is a column in common with the *person* table
 
@@ -90,7 +90,7 @@ WHERE person_id = 14887 OR person_id = 16371
 
 ![fork repository](https://github.com/msantillana21/sql-mysteries/blob/master/My%20Solution/Images/6.jpg)
 
-### 4. You search for the person with the license plate number that includes **H42W**
+### 4. Querying the person with the license plate number that includes **H42W**
 * Joining the *person* and the *drivers license* tables
 
  ```
@@ -105,7 +105,7 @@ WHERE  plate_number LIKE '%H42W%'
 
 The query finds 3 results, but the first witness said that he saw a **man**, so you narrow down to the first 2: Tushar Chandra or Jeremy Bowers.
 
-### 5. You search for the gym information given by the witnesses
+### 5. querying the gym information given by the witnesses
 
 * Selecting the columns that will be more useful
 * Joining *get fit now member* and *get fit now check in* tables
@@ -123,7 +123,7 @@ WHERE membership_id LIKE '%48z%
 
 The person that has a gold membership, checked in on January the 9th as the witnesses said and appeared on the previous license query is **Jeremy Bowers**
 
-### 6. You make your guess 
+### 6. Making your guess 
 
 ![fork repository](https://github.com/msantillana21/sql-mysteries/blob/master/My%20Solution/Images/9.jpg)
 
