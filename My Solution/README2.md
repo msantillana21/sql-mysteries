@@ -10,7 +10,9 @@
 
 ![fork repository](https://github.com/msantillana21/sql-mysteries/blob/master/My%20Solution/Images/2B.jpg)
 
-* Joining *Drivers license*, *Person*, and *Facebook Event checkin* tables:
+* Selecting only relevant columns
+*  Joining *Drivers license*, *Person*, and *Facebook Event checkin* tables
+*  Filtering by car, gender and hair color
 
 ```
 SELECT height, hair_color, gender, car_make, car_model, name,event_name, date
