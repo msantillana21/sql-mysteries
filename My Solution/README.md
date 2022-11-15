@@ -105,7 +105,7 @@ WHERE  plate_number LIKE '%H42W%'
 
 The query finds 3 results, but the first witness said that he saw a **man**, so you narrow down to the first 2: Tushar Chandra or Jeremy Bowers.
 
-### 5. querying the gym information given by the witnesses
+### 5. Querying the gym information given by the witnesses
 
 * Selecting the columns that will be more useful
 * Joining *get fit now member* and *get fit now check in* tables
