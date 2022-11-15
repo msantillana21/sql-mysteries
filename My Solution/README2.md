@@ -10,6 +10,8 @@
 
 ![fork repository](https://github.com/msantillana21/sql-mysteries/blob/master/My%20Solution/Images/2B.jpg)
 
+* Joining *Drivers license*, *Person*, and *Facebook Event checkin* tables:
+
 ```
 SELECT height, hair_color, gender, car_make, car_model, name,event_name, date
 FROM drivers_license dl
