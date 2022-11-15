@@ -113,5 +113,19 @@ The person that has a gold membership, checked in on January the 9th as the witn
 
 ![fork repository](https://github.com/msantillana21/sql-mysteries/blob/master/My%20Solution/Images/10.jpg)
 
+### 7. Checking Jeremy's interview transcript
 
+ ```
+SELECT *
+FROM person p
+JOIN interview i
+ ON p.id = i.person_id
+WHERE name = 'Jeremy Bowers'
+```
+![fork repository](https://github.com/msantillana21/sql-mysteries/blob/master/My%20Solution/Images/11.jpg)
+
+
+### 8. Want to find the real villain?
+
+**[See More...](https://github.com/msantillana21/sql-mysteries/blob/master/My%20Solution/README2.md)**
 
