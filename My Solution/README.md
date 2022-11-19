@@ -4,6 +4,10 @@ In this project I show my solution to the SQL game and the steps I took to find 
 
 I used SQLite directly on the game's website: https://mystery.knightlab.com/
 
+## VIZ
+
+[You can check my Tableau highlights viz here](https://github.com/msantillana21/sql-mysteries/blob/master/My%20Solution/README3.md)
+
 ## Exploring the Database structure
 
 You start by running this query to find the names of the tables in the database:
