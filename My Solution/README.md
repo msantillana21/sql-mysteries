@@ -6,7 +6,7 @@ I used SQLite directly on the game's website: https://mystery.knightlab.com/
 
 ## VIZ
 
-[You can check my Tableau highlights viz here](https://github.com/msantillana21/sql-mysteries/blob/master/My%20Solution/README3.md)
+[You can check my Tableau highlights viz here](https://public.tableau.com/app/profile/manuel5885/viz/SQLMurderMysteryGame/Findings)
 
 ## Exploring the Database structure
 
